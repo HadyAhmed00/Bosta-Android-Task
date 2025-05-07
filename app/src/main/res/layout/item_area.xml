@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingHorizontal="16dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/gray_lite"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/area_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/normal_15_text_style"
+        android:layout_weight="1"
+        tools:text="Alexandria"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/uncovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_13_text_style"
+        android:background="@drawable/text_label"
+        android:padding="8dp"
+        android:text="@string/uncovered"/>
+
+</LinearLayout>

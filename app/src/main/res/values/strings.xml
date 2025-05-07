@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cities App</string>
+    <string name="city_area">City/Area</string>
+    <string name="choose_the_delivery_area">Choose the delivery area</string>
+    <string name="uncovered">Uncovered</string>
+    <string name="selected">%1$s selected</string>
+    <string name="retry">Retry</string>
+</resources>
